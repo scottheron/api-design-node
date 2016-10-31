@@ -16,7 +16,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/data', function(req, res){
-    res.send(jsonData);
+    res.json(jsonData);
 });
 
 var port = 3000;
